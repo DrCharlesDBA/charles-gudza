@@ -4,40 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Charles Gudza</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Charles DBA Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav class="navigation">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
-        </nav>
-        <div id="about">
-            <div>
-                <h1>Dev Charles Gudza</h1>
-                <p>I am DBA Charles aspiring developer.</p>
+    <div class="container">
+        <div class="box">
+            <nav>
+                <a href="#" class="logo">CharlesDBA</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#MyAbout">About</a></li>
+                    <li><a href="#MyProjects">Projects</a></li>
+                    <li><a href="#MySkills">Skills</a></li>
+                    <li><a href="#MyContact">Contact</a></li>
+                </ul>
+            </nav> 
+            <div class="content">
+                <div class="section-1">
+                    <h1>Welcome to my Portfolio, I am Charles</h1>
+                    <h3>A, Full Stack Web Developer</h3>
+                    <br><p>Welcome to my portfolio website to show and present to you some of the web development projects I am working on.
+                        Each project can be viewed seperately on t his portfolio site</p>
+                        <a href="./assets/Charles_Resume Dev _dba.pdf" download="Charles_Resume Dev" class="btn">Download my Resume
+                        </a>
+                </div>
+                <div class="section-2">
+                    <div class="images">
+                        <img src="./0.jpeg" alt="docdba">
+                        <!-- <img src="./1.jpeg" alt="docdba2"> -->
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/doc.charles.906/" target="_blank"><i class="fa-brands
+                        fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/charlesgudzadba/" target="_blank"><i class="fa-brands
+                        fa-linkedin"></i></a>
+                    <a href="https://twitter.com/drcharlesdba" target="_blank"><i class="fa-brands
+                        fa-twitter"></i></a>
+                </div>
             </div>
-            <!-- second div -->
-            <div>
-                <img src="./1.jpeg" alt="charles gudza">
-            </div>
-           
         </div>
-    </header>
-    <main>
-        <div>
-            <h2>My Projects</h2>
-            <div>
-                <h3>Weather App</h3>
-                <p>This is a daily weather update</p>
-                <!-- target="_blank"> opens on blank -->
-                <a href="" target="_blank">
-                    <button>See Weather App</button>
-                </a>
-            </div>
+    </div>
+
+    <!-- div section -->
+    <div id="myblock">
+    <section class="menuoptions">
+    <!-- section for about -->
+    <section id="MyAbout">
+        <h3> ALX Cohort 13, Software Engineering Student. 
+            <br> I am an Aspiring, Full Stack Web Developer</h3>
+                    <br><p>Welcome to my portfolio website to show and present to you some of the web development projects I am working on.
+                        Each project can be viewed seperately on t his portfolio site</p>
+    </section>
+
+    <!-- This section displays my Projects - weather App -->
+    <section id="MyProjects">
+        <h2>Welcome to My Services</h2>
+        <div class="project-weatherapp">
+            <h3>Weather App</h3>
+            <p>This is a daily weather update</p>
+            <!-- target="_blank"> opens on blank -->
+            <a href="" target="_blank">
+                <button>See Weather App</button>
+            </a>
         </div>
-    </main>
+     </section>
+
+    <!-- section for skills -->
+    <section id="MySkills">
+        <h2>Here are my skills</h2>
+        <br>
+        <p>Web Dev</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iure maxime sint nulla aut natus, eius atque itaque assumenda eum harum laudantium pariatur. Ipsam ullam inventore at voluptatum? Iste, sit.</p>
+        <br>
+
+    </section>
+
+     <!-- section for contacts -->
+     <section id="#MyContact">
+        <h2>Here are my Contacts</h2>
+        <br>
+        <p>Web Dev</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iure maxime sint nulla aut natus, eius atque itaque assumenda eum harum laudantium pariatur. Ipsam ullam inventore at voluptatum? Iste, sit.</p>
+        <br>
+     </section>
+     <!-- end of menuoptions section-->
+    </section>
+</div> 
+<!-- end of bottom div -->
 </body>
+<script src="script.js"></script>
 </html>

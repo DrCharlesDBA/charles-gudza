@@ -1,0 +1,120 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth; 
+}
+
+header {
+    width: 100%;
+    background-color: rgb(61, 75, 87);
+    height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navigation ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0%;
+    margin: 10px 20px;
+    list-style: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+.navigation ul li a:hover{
+    color: lightpink;
+}
+
+.aboutdetails {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.aboutdetails h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 1%;
+}
+span {
+    color: blueviolet;
+
+}
+
+.aboutdetails p {
+    color: black;
+    line-height: 20px;
+}
+
+.aboutdetails {
+    background: rgb(205, 226, 241);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    
+}
+
+.images .dbapic1{
+    opacity: 1;
+    width: 100%;
+
+  
+}
+
+.images .dbapic1{
+    opacity: 2;
+    width: 100%;
+
+  
+}
+
+.images .dbapic{
+    opacity: 1;
+    width: 100%;
+
+  
+}
+
+.images:hover .dbapic{
+    bottom: 40px;
+    width: 100%;
+}
+
+.images:hover .dbapic1{
+    left: 99%;
+}
